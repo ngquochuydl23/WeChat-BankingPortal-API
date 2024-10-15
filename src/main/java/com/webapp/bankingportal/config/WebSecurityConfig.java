@@ -41,7 +41,7 @@ public class WebSecurityConfig {
             "swagger-ui.html",
             "/v3/api-docs/**",
             "/swagger-ui/**",
-            "/actuator/**"
+            "/actuator/**",
     };
 
     private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;

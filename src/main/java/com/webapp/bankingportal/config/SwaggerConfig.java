@@ -18,7 +18,7 @@ public class SwaggerConfig {
 
     @Bean
     public OpenAPI customOpenAPI() {
-        val securitySchemeName = "Bearer";
+        String securitySchemeName = "Bearer";
         return new OpenAPI()
                 .info(new Info().title("Banking Portal API")
                         .description("This is auth service use for validate the user.")

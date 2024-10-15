@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  wechat-banking-portal-api:
+    container_name: wechat-banking-portal-api
+    restart: always
+    build:
+      context: .
+    ports:
+      - "1568:1568"
